@@ -1,0 +1,1 @@
+A representação das estruturas (structs) aqui usam ponteiros (char*) para strings, o que requer alocação dinâmica de memória (malloc, free), o que torna mais flexível, pois strings podem ter tamanhos variáveis.
