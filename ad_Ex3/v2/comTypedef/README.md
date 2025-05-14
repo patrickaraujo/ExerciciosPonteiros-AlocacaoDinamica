@@ -18,7 +18,7 @@ Este projeto é uma variação mais avançada do sistema de cadastro de pessoas,
 
 ## 🆚 Diferença em relação ao código da versão da pasta `v1` com `typedef`
 
-| Característica                     | Código anterior (`typedef` estático) | Este código (`typedef` dinâmico)       |
+| Característica                     | Pasta `v1` | Pasta `v2`       |
 |-----------------------------------|-----------------------------|-------------------------------------------|
 | Armazenamento de strings          | Arrays fixos (`char[100]`)  | Ponteiros com `malloc` (`char*`)          |
 | Flexibilidade para nomes longos   | Limitada                    | Alta (alocação conforme necessidade)       |
