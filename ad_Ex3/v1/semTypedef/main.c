@@ -13,6 +13,7 @@ struct cadastro{
     struct endereco local;
 };
 
+//    na pasta 'comTypedef' tem a versão do código com o uso de typedef
 //    redefinindo o tipo struct cadastro 
 //    typedef struct cadastro Cad;
 //    redefinindo o tipo struct endereco
