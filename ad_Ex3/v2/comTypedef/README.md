@@ -35,6 +35,17 @@ Este projeto é uma variação mais avançada do sistema de cadastro de pessoas,
 gcc main.c -o main
 ./main
 ```
+### Versão da pasta `modularizado`:
+
+```bash
+gcc main.c Cad.c -o cadastro
+./cadastro
+```
+
+Este projeto está dividido em três arquivos:
+- `main.c`: Função principal e criação dos cadastros.
+- `Cad.c`: Implementação das funções auxiliares.
+- `Cad.h`: Definição das estruturas e protótipos das funções.
 
 ---
 
