@@ -16,6 +16,13 @@ Criar uma estrutura chamada `Cadastro`, armazenar os dados de `N` pessoas alocad
 
 ---
 
+## 📁 Pastas
+
+- v1: versões com arrays de tamanho fixos para as _strings_ com typedef e com uso explícito de struct
+- v2: versões com alocação dinâmica (`malloc`) para as _strings_ com typedef e com uso explícito de struct
+
+---
+
 ## 📚 Enunciado Original
 
 "Crie uma estrutura chamada `Cadastro`. Essa estrutura deve conter o nome, a idade e o endereço de uma pessoa.  
