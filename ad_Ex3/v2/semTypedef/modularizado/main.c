@@ -3,6 +3,7 @@
 #include <stdlib.h>
 #include "Cadastro.h"
 
+
 struct cadastro* criarCadastro(int N) {
     if (N <= 0) return NULL;
 
