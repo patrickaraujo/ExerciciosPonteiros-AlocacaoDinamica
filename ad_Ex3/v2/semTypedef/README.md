@@ -15,7 +15,7 @@ Este projeto apresenta um sistema de cadastro de pessoas utilizando `struct` dir
 
 ---
 
-## 🆚 Diferença em relação ao código da versão da pasta `v1` com `typedef`
+## 🆚 Diferença em relação ao código da versão da pasta `v1` uso explícito de `struct`
 
 | Característica                     | Pasta `v1` | Pasta `v2`       |
 |-----------------------------------|-----------------------------|-------------------------------------------|
