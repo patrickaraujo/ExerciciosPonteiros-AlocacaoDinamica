@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1747243236 source:/home/patrick/Documentos/CodeBlocks/Aula11/Aula11/main.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+
+1747246540 source:/home/patrick/Documentos/CodeBlocks/Aula11/Aula11/Cad.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"Cad.h"
+
+1747246583 /home/patrick/Documentos/CodeBlocks/Aula11/Aula11/Cad.h
+
