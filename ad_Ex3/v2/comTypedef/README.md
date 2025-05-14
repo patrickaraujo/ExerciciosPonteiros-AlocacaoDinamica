@@ -22,7 +22,6 @@ Este projeto é uma variação mais avançada do sistema de cadastro de pessoas,
 |-----------------------------------|-----------------------------|-------------------------------------------|
 | Armazenamento de strings          | Arrays fixos (`char[100]`)  | Ponteiros com `malloc` (`char*`)          |
 | Flexibilidade para nomes longos   | Limitada                    | Alta (alocação conforme necessidade)       |
-| Uso de `typedef`                  | Sim                         | Sim                                        |
 | Liberação de memória              | `free(vetor)`               | `free` para cada string e para o vetor     |
 | Leitura de strings                | `fgets()` direto no array   | `lerString()` com `malloc`                |
 
