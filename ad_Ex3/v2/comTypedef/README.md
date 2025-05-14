@@ -30,6 +30,7 @@ Este projeto é uma variação mais avançada do sistema de cadastro de pessoas,
 
 ## 🚀 Como Compilar e Executar
 
+### Versão da pasta `semModularizacao`:
 ```bash
 gcc main.c -o main
 ./main
