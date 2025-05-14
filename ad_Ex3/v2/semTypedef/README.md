@@ -17,17 +17,26 @@ Este projeto apresenta um sistema de cadastro de pessoas utilizando `struct` dir
 
 ## 🚀 Como Compilar e Executar
 
-Este projeto está contido em um único arquivo-fonte.
+### Versão da pasta `semModularizacao`:
+```bash
+gcc main.c -o main
+./main
+```
+(Substitua `main.c` pelo nome real do arquivo, caso esteja diferente.)
 
-### Comando para compilar no terminal:
+### Versão da pasta `modularizado`:
 
 ```bash
-gcc main.c -o cadastro
+gcc main.c Cadastro.c -o cadastro
 ./cadastro
 ```
 
-(Substitua `main.c` pelo nome real do arquivo, caso esteja diferente.)
+Este projeto está dividido em três arquivos:
+- `main.c`: Função principal e criação dos cadastros.
+- `Cadastro.c`: Implementação das funções auxiliares.
+- `Cadastro.h`: Definição das estruturas e protótipos das funções.
 
+---
 ---
 
 ## 📚 Requisitos
@@ -60,7 +69,3 @@ Numero da rua: 1010
 ## 🧹 Observação
 
 Mesmo sem `typedef`, o uso de ponteiros para strings e alocação dinâmica torna o programa flexível. Contudo, requer atenção especial ao uso de `free()` para evitar vazamentos de memória.
-
----
-
-A representação das estruturas (structs) aqui usam ponteiros (char*) para strings, o que requer alocação dinâmica de memória (malloc, free), o que torna mais flexível, pois strings podem ter tamanhos variáveis.
