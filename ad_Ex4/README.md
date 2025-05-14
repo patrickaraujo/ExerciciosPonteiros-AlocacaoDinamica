@@ -1,4 +1,4 @@
-# 📌 Alocação Dinâmica de Vetor
+# 📌 Exercício 4: Alocação Dinâmica de Vetor
 
 **Prof. Me. Patrick Araújo**  
 **Aula 11 (Alocação Dinâmica) - Estrutura de Dados e Algoritmos**  
