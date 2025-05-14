@@ -15,6 +15,17 @@ Este projeto apresenta um sistema de cadastro de pessoas utilizando `struct` dir
 
 ---
 
+## 🆚 Diferença em relação ao código da versão da pasta `v1` com `typedef`
+
+| Característica                     | Pasta `v1` | Pasta `v2`       |
+|-----------------------------------|-----------------------------|-------------------------------------------|
+| Armazenamento de strings          | Arrays fixos (`char[100]`)  | Ponteiros com `malloc` (`char*`)          |
+| Flexibilidade para nomes longos   | Limitada                    | Alta (alocação conforme necessidade)       |
+| Liberação de memória              | `free(vetor)`               | `free` para cada string e para o vetor     |
+| Leitura de strings                | `fgets()` direto no array   | `lerString()` com `malloc`                |
+
+---
+
 ## 🚀 Como Compilar e Executar
 
 ### Versão da pasta `semModularizacao`:
