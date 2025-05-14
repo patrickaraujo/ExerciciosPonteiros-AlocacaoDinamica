@@ -18,8 +18,8 @@ Criar uma estrutura chamada `Cadastro`, armazenar os dados de `N` pessoas alocad
 
 ## 📁 Pastas
 
-- v1: versões com arrays de tamanho fixos para as _strings_ com typedef e com uso explícito de struct
-- v2: versões com alocação dinâmica (`malloc`) para as _strings_ com typedef e com uso explícito de struct
+- v1: versões com arrays de tamanho fixos para as _strings_ com `typedef` e com uso explícito de `struct`;
+- v2: versões com alocação dinâmica (`malloc`) para as _strings_ com `typedef` e com uso explícito de `struct`. Há subpastas com uma versão modularizadas e sem modularização.
 
 ---
 
