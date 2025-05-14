@@ -13,6 +13,11 @@ struct cadastro{
     struct endereco local;
 };
 
+//    redefinindo o tipo struct cadastro 
+//    typedef struct cadastro Cad;
+//    redefinindo o tipo struct endereco
+//    typedef struct cadastro End;
+
 void limparEntrada(){
     getchar();  //  Lê eventuais '\n's e armazena para não passar para a próxima leitura
     setbuf(stdin, NULL);    //  Isso limpa o buffer do teclado (entrada padrão) antes da leitura
