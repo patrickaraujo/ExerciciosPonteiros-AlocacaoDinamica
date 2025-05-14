@@ -16,9 +16,9 @@ Este projeto é uma variação mais avançada do sistema de cadastro de pessoas,
 
 ---
 
-## 🆚 Diferença em relação ao código da versão da pasta `v1` com `typedef` (estático)
+## 🆚 Diferença em relação ao código da versão da pasta `v1` com `typedef`
 
-| Característica                     | Código anterior (`typedef`) | Este código (`typedef` + dinâmico)       |
+| Característica                     | Código anterior (`typedef` estático) | Este código (`typedef` dinâmico)       |
 |-----------------------------------|-----------------------------|-------------------------------------------|
 | Armazenamento de strings          | Arrays fixos (`char[100]`)  | Ponteiros com `malloc` (`char*`)          |
 | Flexibilidade para nomes longos   | Limitada                    | Alta (alocação conforme necessidade)       |
@@ -79,5 +79,3 @@ Numero da rua: 999
 ## 🧹 Observação
 
 Este código evita o desperdício de memória típico de arrays fixos ao usar `malloc` para strings. Porém, requer atenção redobrada com `free()` para evitar vazamentos de memória.
-
----
