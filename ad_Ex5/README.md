@@ -1,4 +1,4 @@
-# 📌 Exercício 5: Alocação Dinâmica de Vetor
+# 📌 Exercício 5: Validação e Alocação Dinâmica de Vetor
 
 **Prof. Me. Patrick Araújo**  
 **Aula 11 (Alocação Dinâmica) - Estrutura de Dados e Algoritmos**  
@@ -8,19 +8,16 @@
 
 ## 📝 Descrição do Projeto
 
-- Implementação em _C_ de um exercício prático sobre alocação dinâmica e manipulação de estruturas, baseado na proposta de criar um cadastro de pessoas com nome, idade e endereço.
-- Exercício 3 do Capítulo 11 do livro *"Linguagem C: Completa e Descomplicada"* (André Backes, Elsevier, 2013), desenvolvido como atividade prática sobre alocação dinâmica.
+Implementação em C de um programa que valida um valor N fornecido pelo usuário, aloca dinamicamente um vetor de inteiros e garante que seus elementos sejam maiores ou iguais a 2.
 
 **Objetivo:**  
-Criar uma estrutura chamada `Cadastro`, armazenar os dados de `N` pessoas alocados dinamicamente, preenchê-los com entrada do usuário e exibir os dados ao final.
+Garantir a entrada correta do valor N (positivo) e dos elementos do vetor (>= 2), realizando alocação dinâmica.
 
 ---
 
 ## 📚 Enunciado Original
 
-"Crie uma estrutura chamada `Cadastro`. Essa estrutura deve conter o nome, a idade e o endereço de uma pessoa.  
-Agora, escreva uma função que receba um inteiro positivo `N` e retorne o ponteiro para um vetor de tamanho `N`, alocado dinamicamente, dessa estrutura.  
-Solicite também que o usuário digite os dados desse vetor dentro da função."
+"Faça um programa que leia um valor inteiro N não negativo. Se o valor de N for inválido, o usuário deverá digitar outro até que ele seja válido (ou seja, positivo). Em seguida, leia um vetor V contendo N posições de inteiros, em que cada valor deverá ser maior ou igual a 2. Esse vetor deverá ser alocado dinamicamente."
 
 ---
 
@@ -28,15 +25,32 @@ Solicite também que o usuário digite os dados desse vetor dentro da função."
 
 ### 🔧 Tecnologias Utilizadas
 - Linguagem C
-- Biblioteca padrão (`stdio.h`, `string.h`, `stdlib.h`)
+- Biblioteca padrão (`stdio.h`, `stdlib.h`)
 
-### 📥 Entradas
-1. Número inteiro positivo `N` (quantidade de cadastros)
-2. Para cada pessoa:
-   - Nome (completo)
-   - Idade
-   - Rua
-   - Número da rua
+### ⚙️ Lógica Implementada
+1. Validação do valor de N (deve ser positivo)
+2. Alocação dinâmica do vetor com `malloc`
+3. Leitura dos elementos do vetor, validando que cada valor seja >= 2
+4. Impressão do vetor
+5. Liberação da memória com `free`
 
-### 📤 Saídas
-1. Dados de todos os cadastros inseridos, formatados
+---
+
+## 📥 Entradas
+1. Um valor inteiro N (deve ser >= 1)
+2. N inteiros, cada um >= 2
+
+---
+
+## 📤 Saídas
+1. Mensagens orientando o usuário
+2. Elementos válidos do vetor
+
+---
+
+## 🚀 Como Executar
+
+```bash
+gcc main.c -o main
+./main
+```
